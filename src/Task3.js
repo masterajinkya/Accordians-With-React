@@ -19,6 +19,10 @@ function Task3() {
     const handleSubmit = (e) => {
         e.preventDefault()
         setData([...data, formdata])
+       setFormdata({
+        secName: '',
+        secDetails: ''
+    });
     }
     return (
         <>
